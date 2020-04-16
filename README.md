@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 🆗 Show cases globally :globe_with_meridians: <br/>
 🆗 show guides about COVID'19 🔥 <br/>
 ▶️ Show details about a particular country with graphs <br/>
-▶️ Show map to look for nearby COVID'19 test centers <br/> 🔥
+▶️ Show map to look for nearby COVID'19 test centers <br/> 
 
 ## Progress
 <img  src="screenshots/Screenshot_1587058752.png"  width="250" height="550"> 
