@@ -23,3 +23,5 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Progress
 <img  src="screenshots/Screenshot_1587058752.png"  width="300" height="600"> 
+<img  src="screenshots/Screenshot_1587003884.png"  width="300" height="600"> 
+<img  src="screenshots/Screenshot_1587005026.png"  width="300" height="600"> 
