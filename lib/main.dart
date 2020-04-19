@@ -34,7 +34,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
     return new Scaffold( 
       appBar: new AppBar( 
          title: new Text("COVID-19"),
-         backgroundColor: Colors.green,
+         backgroundColor: Colors.blue,
         bottom: new TabBar( 
           controller: controller,
             tabs: <Tab>[ 
