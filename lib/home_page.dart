@@ -72,13 +72,15 @@ class First extends StatefulWidget{
                                 children: <Widget>[ 
                                       Text('Total Cases',
                                       style: TextStyle( 
+                                        fontSize: 20.0,
+                                        fontWeight: FontWeight.bold,
                                         color:Colors.black54,
                                        ),
                                       ),
                                       SizedBox(height: 15.0),
                                       Text('${countryData[index]["cases"]}',
                                       style: TextStyle( 
-                                        color: Colors.blue,
+                                        color: Colors.purple,
                                         fontSize: 35.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -96,7 +98,7 @@ class First extends StatefulWidget{
                                       Text('${countryData[index]["deaths"]} ',
                                       style: TextStyle( 
                                         color: Colors.red,
-                                        fontSize: 35.0,
+                                        fontSize: 20.0,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
@@ -113,12 +115,31 @@ class First extends StatefulWidget{
                                       Text('${countryData[index]["recovered"]}',
                                       style: TextStyle( 
                                         color: Colors.green,
-                                        fontSize: 35.0,
+                                        fontSize: 20.0,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                 ],
                                 ),
+                              Column(
+                                children: <Widget>[ 
+                                      Text('Active',
+                                      style: TextStyle( 
+                                        color:Colors.black54,
+                                       ),
+                                      ),
+                                      SizedBox(height: 20.0),
+                                      Text('${countryData[index]["active"]}',
+                                      style: TextStyle( 
+                                        color: Colors.green,
+                                        fontSize: 20.0,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                ],
+                                ),
+
+
                              ],
                             ),
                           ),
