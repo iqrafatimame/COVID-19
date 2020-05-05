@@ -22,5 +22,5 @@ samples, guidance on mobile development, and a full API reference.
 ▶️ Show map to look for nearby COVID'19 test centers <br/> 
 
 ## Progress
-<img src="screenshots/upgrade.png" width= "280" height="550"> <img  src="screenshots/Screenshot_1587003884.png"  width="280" height="550"> 
-<img  src="screenshots/Screenshot_1587005026.png"  width="280" height="550"> 
+<img src="screenshots/Screenshot_1588735276.png" width= "280" height="550"> <img  src="screenshots/Screenshot_1588735282.png"  width="280" height="550"> 
+<img  src="screenshots/Screenshot_1588735292.png"  width="280" height="550"> 
