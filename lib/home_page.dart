@@ -131,7 +131,7 @@ class First extends StatefulWidget{
                                       SizedBox(height: 20.0),
                                       Text('${countryData[index]["active"]}',
                                       style: TextStyle( 
-                                        color: Colors.green,
+                                        color: Colors.blue,
                                         fontSize: 20.0,
                                         fontWeight: FontWeight.bold,
                                       ),

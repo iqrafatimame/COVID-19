@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 //import 'package:flutter/src/animation/animation_controller.dart';
 import './home_page.dart' as first;
 import './guides_page.dart' as Guides;
+import './developer.dart' as Developer;
+import './pakistan.dart' as Pakistan;
 
 void main(){
   runApp(MaterialApp( 
@@ -20,7 +22,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
   @override 
   void initState() { 
     super.initState();
-    controller = new TabController(length: 2, vsync: this);
+    controller = new TabController(length: 4, vsync: this);
   }
 
   @override 
@@ -46,7 +48,14 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
                 icon: new Icon(Icons.grid_on),
                 text: 'Guides',
               ),
-               
+              new Tab( 
+                icon: new Icon(Icons.star),
+                text: 'Home Country',
+              ),
+              new Tab( 
+                icon: new Icon(Icons.person),
+                text: 'Developer',
+              ), 
             ],
          ),
       ),
@@ -55,9 +64,11 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           children: <Widget>[ 
               new first.First(),
               new Guides.Guides(),
-              //new Guides.Guides(),
+              new Pakistan.Pakistan(),
+              new Developer.Developer(),
+              
           ],
-        ),
+       ),
     );
   }
 }
