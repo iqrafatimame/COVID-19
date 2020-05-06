@@ -15,13 +15,11 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 &nbsp; 
-## 🥅 GOALS FOR THE APP 
-🆗 Show cases country wise  😎 <br/>
-🆗 Show cases globally :globe_with_meridians: <br/>
+## Features 
+🆗 Show cases from all over the world :globe_with_meridians: <br/>
+🆗 Show cases of home country (Pakistan) 😎 <br/>
 🆗 show guides about COVID'19 🔥 <br/>
-▶️ Show details about a particular country with graphs <br/>
-▶️ Show map to look for nearby COVID'19 test centers <br/> 
-
+ 
 &nbsp; 
 ## Progress 💻
 
