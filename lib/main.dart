@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 //import 'package:flutter/src/animation/animation_controller.dart';
 import './home_page.dart' as first;
 import './guides_page.dart' as Guides;
-import './newsPage.dart' as News;
 
 void main(){
   runApp(MaterialApp( 
@@ -21,7 +20,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
   @override 
   void initState() { 
     super.initState();
-    controller = new TabController(length: 3, vsync: this);
+    controller = new TabController(length: 2, vsync: this);
   }
 
   @override 
@@ -35,7 +34,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
     return new Scaffold( 
       appBar: new AppBar( 
          title: new Text("COVID-19"),
-         backgroundColor: Colors.lightGreen,
+         backgroundColor: Colors.green,
         bottom: new TabBar( 
           controller: controller,
             tabs: <Tab>[ 
@@ -47,10 +46,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
                 icon: new Icon(Icons.grid_on),
                 text: 'Guides',
               ),
-               new Tab( 
-                icon: new Icon(Icons.graphic_eq),
-                text: 'graph',
-              ),
+               
             ],
          ),
       ),
@@ -59,7 +55,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           children: <Widget>[ 
               new first.First(),
               new Guides.Guides(),
-              new News.News(),
+              //new Guides.Guides(),
           ],
         ),
     );
