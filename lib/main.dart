@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter/src/animation/animation_controller.dart';
 import './home_page.dart' as first;
 import './guides_page.dart' as Guides;
 import './developer.dart' as Developer;
@@ -41,7 +40,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           controller: controller,
             tabs: <Tab>[ 
               new Tab( 
-                icon: new Icon(Icons.home),
+                icon: new Icon(Icons.all_out),
                 text: 'Globe',
               ),
               new Tab( 

@@ -44,7 +44,7 @@ flutter:
   uses-material-design: true
   
   fonts:
-    - family:  MyFlutterApp
+    - family: MyFlutterApp
     - family: Pacifico
       fonts:
        - asset: fonts/MyFlutterApp.ttf

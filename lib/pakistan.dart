@@ -24,7 +24,6 @@ class _PakistanState extends State<Pakistan> {
   }
   
   showData(String data , String text, Color color){
-     int index = 148;
     return Card( 
       child: Container(
                   height: 80.0,
@@ -39,7 +38,7 @@ class _PakistanState extends State<Pakistan> {
                               color:Colors.black54,
                             ),
                           ),
-                          Text('${countryData[index][data]}',
+                          Text('${countryData[148][data]}',
                           style: TextStyle( 
                                 color: color,
                                 fontSize: 35.0,
@@ -58,7 +57,6 @@ class _PakistanState extends State<Pakistan> {
       body: SafeArea(
         child: Center(
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
             Container(
               height: 100.0,
@@ -93,7 +91,7 @@ class _PakistanState extends State<Pakistan> {
                 color: Colors.grey[600],
                 fontWeight: FontWeight.bold,
                ),
-              )
+             ),
            ],
           ),
         ),
