@@ -22,10 +22,38 @@ class _PakistanState extends State<Pakistan> {
     super.initState();
     getData();
   }
-    
+  
+  showData(String data , String text, Color color){
+     int index = 148;
+    return Card( 
+      child: Container(
+                  height: 80.0,
+                  child: Center(
+                    child: Row( 
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: <Widget>[ 
+                          Text('$text',
+                          style: TextStyle( 
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color:Colors.black54,
+                            ),
+                          ),
+                          Text('${countryData[index][data]}',
+                          style: TextStyle( 
+                                color: color,
+                                fontSize: 35.0,
+                                fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ]
+                    ),
+                  ),
+                ),
+    );
+  }
   @override
   Widget build(BuildContext context) {
-    int index = 148;
     return Scaffold(
       body: SafeArea(
         child: Center(
@@ -33,8 +61,8 @@ class _PakistanState extends State<Pakistan> {
             //mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
             Container(
-              height: 120.0,
-              width: 120.0,
+              height: 100.0,
+              width: 100.0,
               child: Image.asset('images/flag.jpg'),
               ),
               SizedBox( 
@@ -51,110 +79,10 @@ class _PakistanState extends State<Pakistan> {
               SizedBox( 
                 height: 20.0,
               ),
-              Card( 
-                child: Container(
-                  height: 80.0,
-                  child: Center(
-                    child: Row( 
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: <Widget>[ 
-                          Text("Total Cases",
-                          style: TextStyle( 
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              color:Colors.black54,
-                            ),
-                          ),
-                          Text('${countryData[index]["cases"]}',
-                          style: TextStyle( 
-                                color: Colors.purple,
-                                fontSize: 35.0,
-                                fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ]
-                    ),
-                  ),
-                ),
-              ),
-               Card( 
-                child: Container(
-                  height: 80.0,
-                  child: Center(
-                    child: Row( 
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: <Widget>[ 
-                          Text("Deaths",
-                          style: TextStyle( 
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              color:Colors.black54,
-                            ),
-                          ),
-                          Text('${countryData[index]["deaths"]}',
-                          style: TextStyle( 
-                                color: Colors.red,
-                                fontSize: 35.0,
-                                fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ]
-                    ),
-                  ),
-                ),
-              ),
-               Card( 
-                child: Container(
-                  height: 80.0,
-                  child: Center(
-                    child: Row( 
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: <Widget>[ 
-                          Text("Recovered",
-                          style: TextStyle( 
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              color:Colors.black54,
-                            ),
-                          ),
-                          Text('${countryData[index]["recovered"]}',
-                          style: TextStyle( 
-                                color: Colors.green,
-                                fontSize: 35.0,
-                                fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ]
-                    ),
-                  ),
-                ),
-              ),
-               Card( 
-                child: Container(
-                  height: 80.0,
-                  child: Center(
-                    child: Row( 
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: <Widget>[ 
-                          Text("Active Cases",
-                          style: TextStyle( 
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              color:Colors.black54,
-                            ),
-                          ),
-                          Text('${countryData[index]["active"]}',
-                          style: TextStyle( 
-                                color: Colors.blue,
-                                fontSize: 35.0,
-                                fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ]
-                    ),
-                  ),
-                ),
-              ),
+              showData('cases','Total Cases', Colors.purple),
+              showData('deaths', 'Deaths', Colors.red),
+              showData('recovered', 'Recovered', Colors.green),
+              showData('active','Active Cases', Colors.blue),
               SizedBox(
                 height: 15.0,
               ),

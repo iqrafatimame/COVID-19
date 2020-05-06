@@ -42,15 +42,15 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
             tabs: <Tab>[ 
               new Tab( 
                 icon: new Icon(Icons.home),
-                text: 'Home',
+                text: 'Globe',
+              ),
+              new Tab( 
+                icon: new Icon(Icons.star),
+                text: 'Pakistan',
               ),
                new Tab( 
                 icon: new Icon(Icons.grid_on),
                 text: 'Guides',
-              ),
-              new Tab( 
-                icon: new Icon(Icons.star),
-                text: 'Home Country',
               ),
               new Tab( 
                 icon: new Icon(Icons.person),
@@ -63,10 +63,9 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
           controller: controller,
           children: <Widget>[ 
               new first.First(),
-              new Guides.Guides(),
               new Pakistan.Pakistan(),
+              new Guides.Guides(),
               new Developer.Developer(),
-              
           ],
        ),
     );
