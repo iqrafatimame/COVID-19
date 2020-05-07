@@ -16,7 +16,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 &nbsp; 
 
-👋 This is a small COVID App that I made for just learning purpose, using my very basics knowledge of Flutter.
+👋 This is a small COVID App that I made for just learning purpose, using my very basic knowledge of Flutter.
 ## Features 
 🆗 Show cases from all over the world :globe_with_meridians: <br/>
 🆗 Show cases of home country (Pakistan) 😎 <br/>
