@@ -1,29 +1,24 @@
-# 🦠 COVID-19  
+<img src="screenshots/covidAPP.jpg">
 
-A new Flutter project.
+<div align="center">
+	<h1>🦠 COVID-19<br>
+	<img alt="version: 1.0.0" src="https://img.shields.io/badge/version-v1.0.0-green">
+	<img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-green">
+	</h1>
+</div>
 
-## Getting Started
+COVID-19 is drastically spreading across the globe with more than 2M+ cases already. I have developed this mobile application which will help you keep track of the disease.
 
-This project is a starting point for a Flutter application.
+## 🚀FEATURES
 
-A few resources to get you started if this is your first Flutter project:
+- 🌎 Worldwide Cases
+- 🇵🇰 Pakistan Cases
+- 📖 Show COVID-19 Guides
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🎩 REQUESTS
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-&nbsp; 
+If you have an idea which you want to see in this application, please use the [GitHub Issues](https://github.com/iqrafatimame/COVID-19/issues).
 
-👋 This is a small COVID App that I made for just learning purpose, using my very basic knowledge of Flutter.
-## Features 
-🆗 Show cases from all over the world :globe_with_meridians: <br/>
-🆗 Show cases of home country (Pakistan) 😎 <br/>
-🆗 show guides about COVID'19 🔥 <br/>
- 
-&nbsp; 
-## Progress 💻
+## 🔑 LICENSE
 
-<img src="screenshots/covidAPP.jpg" width="1000" height="600">
-
+- MIT
