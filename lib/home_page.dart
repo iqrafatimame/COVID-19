@@ -53,6 +53,7 @@ class First extends StatefulWidget{
                             child: Text('${countryData[index]["country"]}',
                             style: TextStyle( 
                                 color: Colors.grey[700],
+                                fontFamily: 'Lato',
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                                ),
@@ -73,6 +74,7 @@ class First extends StatefulWidget{
                                       Text('Total Cases',
                                       style: TextStyle( 
                                         fontSize: 20.0,
+                                        fontFamily: 'Lato',
                                         fontWeight: FontWeight.bold,
                                         color:Colors.black54,
                                        ),
@@ -80,6 +82,7 @@ class First extends StatefulWidget{
                                       SizedBox(height: 15.0),
                                       Text('${countryData[index]["cases"]}',
                                       style: TextStyle( 
+                                        fontFamily: 'Lato',
                                         color: Colors.purple,
                                         fontSize: 35.0,
                                         fontWeight: FontWeight.bold,
@@ -91,6 +94,7 @@ class First extends StatefulWidget{
                                 children: <Widget>[ 
                                       Text('Deaths',
                                       style: TextStyle( 
+                                        fontFamily: 'Lato',
                                         color:Colors.black54,
                                         ),
                                        ),
@@ -98,6 +102,7 @@ class First extends StatefulWidget{
                                       Text('${countryData[index]["deaths"]} ',
                                       style: TextStyle( 
                                         color: Colors.red,
+                                        fontFamily: 'Lato',
                                         fontSize: 20.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -108,6 +113,7 @@ class First extends StatefulWidget{
                                 children: <Widget>[ 
                                       Text('Recovered',
                                       style: TextStyle( 
+                                        fontFamily: 'Lato',
                                         color:Colors.black54,
                                        ),
                                       ),
@@ -115,6 +121,7 @@ class First extends StatefulWidget{
                                       Text('${countryData[index]["recovered"]}',
                                       style: TextStyle( 
                                         color: Colors.green,
+                                        fontFamily: 'Lato',
                                         fontSize: 20.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -125,6 +132,7 @@ class First extends StatefulWidget{
                                 children: <Widget>[ 
                                       Text('Active',
                                       style: TextStyle( 
+                                        fontFamily: 'Lato',
                                         color:Colors.black54,
                                        ),
                                       ),
@@ -133,13 +141,12 @@ class First extends StatefulWidget{
                                       style: TextStyle( 
                                         color: Colors.blue,
                                         fontSize: 20.0,
+                                        fontFamily: 'Lato',
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                 ],
                                 ),
-
-
                              ],
                             ),
                           ),
@@ -149,7 +156,6 @@ class First extends StatefulWidget{
                         ),
                       ],
                     ),
-                    
                   ),
                   shadowColor: Colors.grey,
                 );

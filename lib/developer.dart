@@ -18,6 +18,7 @@ class _DeveloperState extends State<Developer> {
               Text('DEVELOPER',
               style: TextStyle(
                 fontSize: 25.0,
+                fontFamily: 'Montserrat',
                 color: Colors.black,
                 letterSpacing: 2.5,
                 fontWeight: FontWeight.bold,
@@ -36,7 +37,7 @@ class _DeveloperState extends State<Developer> {
               ),
               Text('Iqra Fatima',
               style: TextStyle(
-                fontFamily: 'Pacifico',
+                fontFamily: 'Lato',
                 fontSize: 30.0,
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
@@ -63,6 +64,7 @@ class _DeveloperState extends State<Developer> {
                      title: Text('iqrafatimame',
                             style: TextStyle(
                             fontSize: 18.0,
+                            fontFamily: 'Lato',
                             fontWeight: FontWeight.bold,
                             color: Colors.black,),
                      ),
@@ -83,13 +85,13 @@ class _DeveloperState extends State<Developer> {
                      title: Text('iqrafatimame@gmail.com',
                             style: TextStyle(
                             fontSize: 18.0,
+                            fontFamily: 'Lato',
                             fontWeight: FontWeight.bold,
                             color: Colors.black,),
                      ),
                   )
                 ),
               ),
-            
             ],
           ),
         ),

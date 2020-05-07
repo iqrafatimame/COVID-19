@@ -20,6 +20,8 @@ dependencies:
   flutter:
     sdk: flutter
   http: 0.12.0
+  intl: ^0.16.1
+  splashscreen: ^1.2.0
   google_maps_flutter: ^0.4.0
   
 
@@ -45,10 +47,16 @@ flutter:
   
   fonts:
     - family: MyFlutterApp
-    - family: Pacifico
       fonts:
        - asset: fonts/MyFlutterApp.ttf
-       - asset: fonts/Pacifico-Regular.ttf
+    - family: Montserrat
+      fonts:
+       - asset: fonts/Montserrat-Regular.ttf
+       - asset: fonts/Montserrat-SemiBold.ttf
+    - family: Lato
+      fonts:
+       - asset: fonts/Lato-Bold.ttf
+       - asset: fonts/Lato-Regular.ttf
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/

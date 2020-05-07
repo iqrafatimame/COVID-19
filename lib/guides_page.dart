@@ -35,12 +35,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Wash Your Hands',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                         ),
                       ),
                       subtitle:Text('Washing your hands is the best way to \n help you stay healthy.',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                        ),
                       ),
                     ),
@@ -67,12 +69,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Social Distance',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       subtitle:Text('The main way COVID-19 speads is between people. Social distancing helps to stop the spread. ',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                        ),
                       ),
                     ),
@@ -100,12 +104,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Isolate Yourself From Others',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       subtitle:Text('if you have confiremed or possible COVID-19 or have symptoms, isolate yourself in your home to protect others.',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                        ),
                       ),
                     ),
@@ -132,12 +138,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Symptoms Monitoring',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       subtitle:Text('Observe your COVID-19 symptoms for 14 days if you suspect you have the disease, have been around someone who has tested positive or you have been diagosed.',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                        ),
                       ),
                     ),
@@ -164,12 +172,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Rest and Take Care',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       subtitle:Text('Eat well, drink fluids and get plenty of rest.',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                        ),
                       ),
                     ),
@@ -196,12 +206,14 @@ class GuidesState extends State<Guides> {
                       title: Text('Cleaning and Disinfecting the Surface',
                       style: TextStyle( 
                         fontSize: 20.0,
+                        fontFamily: 'Lato',
                         fontWeight: FontWeight.bold,
                        ),
                       ),
                       subtitle:Text('Commonly used surface should be regularly cleaned and disinfected.',
                       style: TextStyle(
                             fontSize: 15.0,
+                            fontFamily: 'Lato',
                      ),
                     ),
                   ),
