@@ -38,7 +38,7 @@ class _PakistanState extends State<Pakistan> {
                               color:Colors.black54,
                             ),
                           ),
-                          Text('${countryData[148][data]}',
+                          Text('${countryData[2][data]}',
                           style: TextStyle( 
                                 color: color,
                                 fontSize: 35.0,
@@ -77,6 +77,7 @@ class _PakistanState extends State<Pakistan> {
               SizedBox( 
                 height: 20.0,
               ),
+              Text(countryData[2]["country"]),
               showData('cases','Total Cases', Colors.purple),
               showData('deaths', 'Deaths', Colors.red),
               showData('recovered', 'Recovered', Colors.green),

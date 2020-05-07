@@ -6,6 +6,7 @@ import './pakistan.dart' as Pakistan;
 
 void main(){
   runApp(MaterialApp( 
+    debugShowCheckedModeBanner: false,
     home: MyTabs(),
   ));
 }
