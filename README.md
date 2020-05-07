@@ -23,5 +23,5 @@ samples, guidance on mobile development, and a full API reference.
 &nbsp; 
 ## Progress 💻
 
-<img src="screenshots/covid app.jpg" width="1000" height="600">
+<img src="screenshots/covidAPP.jpg" width="1000" height="600">
 
